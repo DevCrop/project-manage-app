@@ -5,6 +5,7 @@ import { useState } from "react";
 import SelectedProject from "./components/SelectedProject";
 
 function App() {
+  //dev입니다.
   const [projectState, setProjectState] = useState({
     selectedProjectId: undefined,
     projects: [],
